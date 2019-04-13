@@ -3,9 +3,6 @@ body{
 }
 img { pointer-events: none;
 }
-.background{
-
-}
 
 #left{
   background-image: url(img/background.png);
