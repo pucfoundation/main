@@ -1,0 +1,279 @@
+body{
+}
+img { pointer-events: none; }
+.background{
+
+}
+
+#left{
+  background-image: url(img/background.png);
+  position: fixed;
+  height: 100%;
+  width: 12%;
+  left: 0;
+  bottom: 0;
+
+}
+#right{
+  background-image: url(img/background.png);
+  position: fixed;
+  height: 100%;
+    width: 12%;
+  right: 0;
+  bottom: 0;
+
+}
+
+.all{
+  margin: auto;
+  position: absolute;
+  width: 76%;
+  height: 1000px;
+  top: 0px;
+  left: 0;
+  right: 0;
+
+}
+.left{
+  background-image: url(img/hz2.png);
+  background-position: bottom;
+  background-repeat: repeat-x;
+
+  position: fixed;
+  border-right: 4px solid black;
+  width: 120px;
+  height: 100%;
+}
+.head{
+  z-index:2;
+  background: url(img/hz.png) ;
+  background-repeat: repeat-x;
+  background-color: white;
+  border-bottom: 4px solid black;
+  top:0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  border-radius: 0 0 60px 0px;
+
+
+
+}
+ #logo {
+
+  border-right: 4px solid black;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-left: 12%;
+  }
+ #menu {
+  border-left: 10px solid transparent;
+  border-right:10px solid transparent;
+  position: relative;
+  margin-top: -136px;
+  margin-left: 12%;
+  height: 120px;
+  width: 88%;
+  font-size: 19px;
+
+}
+  #menu ul{
+
+  margin-top: 16px;
+  margin-left: 79px;
+}
+  #menu li{
+  border-right: 4px solid black;
+  border-left: 4px solid black;
+  text-align: center;
+  margin-left:-1px;
+  display: inline-block;
+  width: 14%;
+}
+  #menu a{
+  color: white;
+  display: block;
+text-decoration: none;
+padding-top: 102px;
+
+
+}
+  #menu p{
+  background-color: black;
+  margin: 0;
+  margin-left: -1px;
+  padding: 0;
+}
+  #menu li:hover{
+  background-color: black
+}
+   #a{
+  background: url(img/home.png) no-repeat;
+  background-color: rgb(135,206,235,0.4);
+  background-position: center top;
+}
+   #a:hover{
+  background: url(img/home2.png) no-repeat;
+  background-position: center top;
+
+}
+   #b{
+  background: url(img/block.png) no-repeat;
+  background-position: center top;
+}
+   #b:hover{
+  background: url(img/block2.png) no-repeat;
+  background-position: center top;
+
+}
+   #c{
+  background: url(img/info.png) no-repeat;
+  background-position: center top;
+}
+   #c:hover{
+  background: url(img/info2.png) no-repeat;
+  background-position: center top;}
+   #d{
+    background: url(img/cont.png) no-repeat;
+    background-position: center top;
+  }
+   #d:hover{
+    background: url(img/cont2.png) no-repeat;
+    background-position: center top;}
+
+
+
+
+
+
+
+
+
+
+.content{
+margin-top: 85px;
+  height:1800px;
+  margin-left: 120px;
+  background-color: #9b9d9e;
+
+
+}
+#doc{
+  position: relative;
+  border: 5px solid black;
+  background-image: url(img/papertexture.jpg);
+  margin: auto;
+  width: 620px;
+  height: 800px;
+}
+#doc h1{ font-size: 32px;
+  text-align: center;
+margin-bottom: -10px;
+}
+#pr {font-size: 18px;
+  text-align: center;
+
+}
+#doc h3{font-size: 15px;
+  text-align: center;
+}
+#gerb{
+margin-left: 230px;
+width: 60px;
+height: 60px;
+}
+#shtump{
+  z-index:0;
+position: absolute;
+width: 120px;
+height: 120px;
+left:200px;
+top:600px;
+}
+#shtumpRF{
+  z-index:0;
+position: absolute;
+width: 120px;
+height: 120px;
+left:400px;
+top: 620px;
+}
+#shtumpUK{
+  z-index:0;
+position: absolute;
+width: 120px;
+height: 120px;
+left:300px;
+top: 670px;
+}
+#podpis{
+  z-index:0;
+position: absolute;
+  width:130px;
+  height: 60px;
+  left: 400px;
+  top: 530px;
+  border-bottom: 2px solid black
+}
+#all{
+
+  margin-left:50px;
+  margin-right: 50px;
+}
+#ass {
+  font-size: 16px;
+}
+#gay{
+  margin-bottom:-5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#text p{
+  text-align: justify;
+  font-family: sans-serif;
+  margin: auto;
+  margin-left: 60px;
+  margin-right: 30px;
+  font-size: 26px;
+}
+#zaglavie  h1{
+  color: black;
+  margin-left: 20px;
+font-size: 50px;
+}
+#zaglavie hr{
+  border-bottom: 3px solid black;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+#zaglavie{
+  margin-bottom: -10px;
+background: rgba(255,255, 255, 0.5);
+border-radius:40px 40px 0px 0px;
+}
+#text{
+  border-radius:0px 0px 40px 40px;
+background: rgba(255,255, 255, 0.5);
+}
+#poc{
+  margin-left: 60px;
+}
+#fort{
+  margin-right: 20px;
+}
