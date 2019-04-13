@@ -110,7 +110,7 @@ padding-top: 102px;
 }
    #a{
   background: url(img/home.png) no-repeat;
-
+ background-color: rgb(135,206,235,0.4);
   background-position: center top;
 }
    #a:hover{
@@ -120,7 +120,6 @@ padding-top: 102px;
 }
    #b{
   background: url(img/block.png) no-repeat;
-  background-color: rgb(135,206,235,0.4);
   background-position: center top;
 }
    #b:hover{
