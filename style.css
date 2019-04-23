@@ -3,6 +3,9 @@ body{
 }
 img { pointer-events: none;
 }
+.background{
+
+}
 
 #left{
   background-image: url(img/background.png);
@@ -84,12 +87,13 @@ z-index: 3;
   margin-left: 79px;
 }
   #menu li{
+    white-space: nowrap;
   border-right: 4px solid black;
   border-left: 4px solid black;
   text-align: center;
   margin-left:-1px;
   display: inline-block;
-  width: 150px;
+  width: 14%;
 }
   #menu a{
   color: white;
@@ -110,7 +114,7 @@ padding-top: 102px;
 }
    #a{
   background: url(img/home.png) no-repeat;
- background-color: rgb(135,206,235,0.4);
+background-color: rgb(135,206,235,0.4);
   background-position: center top;
 }
    #a:hover{
